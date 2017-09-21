@@ -181,8 +181,6 @@ public class Agenda extends JFrame {
 				
 				if(nombre.isEmpty()) 
 					JOptionPane.showMessageDialog(contentPane, "Error tiene que añadir un nombre");
-				if(eda.isEmpty())
-					JOptionPane.showMessageDialog(contentPane, "Error tiene que añadir una edad");
 				else{
 					
 				Persona p = new Persona(nombre, edad, genero, telefono, correo);
